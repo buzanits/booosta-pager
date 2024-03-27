@@ -1,0 +1,22 @@
+{
+    "name": "booosta/pager",
+    "description": "Module for splitting data into pages and navigate between them for the Booosta PHP Framework",
+    "license": "LGPL-3.0-only",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "booosta\\pager\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Peter Buzanits",
+            "email": "peter@icb.at"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.0.0",
+        "booosta/webapp": "dev-master"
+    }
+}
